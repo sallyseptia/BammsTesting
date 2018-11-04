@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mutation">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar2"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_mutation_menu"
+        android:scrollbars="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:visibility="visible"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/nomutation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No mutation available"
+        android:textSize="40dp"
+        android:layout_marginTop="55dp"
+        android:visibility="gone"
+        />
+
+</android.support.constraint.ConstraintLayout>

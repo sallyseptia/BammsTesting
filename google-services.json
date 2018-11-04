@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "673373370452",
+    "firebase_url": "https://bamms-144f5.firebaseio.com",
+    "project_id": "bamms-144f5",
+    "storage_bucket": "bamms-144f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673373370452:android:f71cc52293c19f41",
+        "android_client_info": {
+          "package_name": "com.example.asus.bamms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673373370452-8ia4tsih2nl13dtdb9l9ahn1dh52r8a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.bamms",
+            "certificate_hash": "f1f850f9a479391d2a71401b3badb40a0e16561f"
+          }
+        },
+        {
+          "client_id": "673373370452-be80jpq02haqbktdfp2q6nvemjii90n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6DMLToXTn3XP69mETKxspBZPnJleHL8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673373370452-be80jpq02haqbktdfp2q6nvemjii90n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Deposit">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Amount:"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/txtamounthome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please insert amount to deposit/withdraw:"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtAmount1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Amount"
+            android:inputType="phone"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="25sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp">
+            <Button
+                android:id="@+id/btnDeposit"
+                android:layout_width="171dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@drawable/btn_round"
+                android:gravity="center_vertical|center_horizontal"
+                android:shape="rectangle"
+                android:text="Deposit"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnWithdraw"
+                android:layout_width="171dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="175dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_round"
+                android:gravity="center_vertical|center_horizontal"
+                android:shape="rectangle"
+                android:text="Withdraw"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

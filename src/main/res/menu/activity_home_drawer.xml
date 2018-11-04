@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/deposit"
+            android:icon="@drawable/ic_action_tiles_large"
+            android:title="Deposit/Withdraw" />
+        <item
+            android:id="@+id/transfer"
+            android:icon="@drawable/ic_action_tiles_large"
+            android:title="Transfer" />
+        <item
+            android:id="@+id/mutation"
+            android:icon="@drawable/ic_action_tiles_large"
+            android:title="Mutation" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout_black_24dp"
+            android:title="Log out" />
+
+    </group>
+
+</menu>
